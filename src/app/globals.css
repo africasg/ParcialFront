@@ -65,7 +65,7 @@ button:hover{
 }
 .botonBorrarFiltros{
    background: linear-gradient(90deg, #ff7a18, #ffb347);
-  color:white;
+  color:rgb(0, 0, 0);
 }
 .infoContainer{
   margin-bottom: 20px;
