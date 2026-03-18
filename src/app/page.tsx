@@ -81,7 +81,11 @@ const Home = () => {
         <button onClick={cocktailRandom}>
           Dime algo bonito 
         </button>
-
+        <button onClick={()=>{
+          router.push("/list")
+        }}>
+          Mirar la lista 
+        </button>
         {search && (
           <button
             className="botonBorrarFiltros"

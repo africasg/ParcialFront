@@ -1,5 +1,5 @@
 export type Cocktail = {
-  idDrink: string;
+  idDrink: number;
   strDrink: string;
   strDrinkAlternate: string | null;
   strTags: string | null;
